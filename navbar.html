@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="./navbar.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <button
+        onclick="document.body.classList.toggle('open')"
+        class="burger"
+      ></button>
+      <h1>P</h1>
+      <div class="dropdowns">
+        <div class="dropdown">
+          <button>My Services</button>
+          <img src="./icons-img/chevron.svg" />
+          <div class="dropdown-menu">
+            <button>UI/UX Design</button>
+            <button>Frontend Development</button>
+            <button>WordPress Development</button>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button>About Me</button>
+          <img src="./icons-img/chevron.svg" />
+          <div class="dropdown-menu">
+            <button>Cover Letter</button>
+            <button>Experience</button>
+            <button>Github</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
